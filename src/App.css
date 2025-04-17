@@ -1,16 +1,28 @@
-{
-  "name": "fng-echos-of-namen",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "5.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  }
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #111;
+  color: #f4f4f4;
+  min-height: 100vh;
+}
+
+select, button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #8ef;
 }
